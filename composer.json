@@ -1,0 +1,55 @@
+{
+    "name": "psad73/yii2-d3js",
+    "description": "Highly customizable data visualization for Yii2",
+    "type": "yii2-asset",
+    "license": "BSD-3-Clause",
+    "support": {
+        "source": "https://github.com/psad73/yii2-d3js"
+    },
+    "keywords": [
+        "psad73",
+        "yii",
+        "yii2",
+        "yii 2",
+        "yii framework",
+        "d3js"
+    ],
+    "authors": [
+        {
+            "name": "2amigOS! Consulting Group",
+            "email": "psad73@gmail.com",
+            "homepage": "http://2amigos.us",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Psad73\\D3js\\": "./src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Psad73\\Dsjs\\": "./src"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "8.0"
+        },
+        "preferred-install": {
+            "*": "auto"
+        }
+    },
+    "conflict": {
+    },
+    "extra": {
+        
+    }    
+}
